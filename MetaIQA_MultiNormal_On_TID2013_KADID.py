@@ -429,7 +429,7 @@ def load_data(mod='train', dataset='tid2013', worker_idx=0):
                                       shuffle=False, num_workers=4, collate_fn=my_collate)
     else:
         
-        cross_data_path = '/home/user/Database/LIVEwild/ChallengeDB_release/image_labeled_by_score_normal.csv'
+        cross_data_path = '/home/user/Database/LIVEwild/ChallengeDB_release/image_labeled_by_score.csv'
         transformed_dataset_valid_1 = ImageRatingsDataset(csv_file=cross_data_path,
                                                           root_dir='/home/user/Database/LIVEwild/ChallengeDB_release/Images',
                                                           transform=test_transforms)
