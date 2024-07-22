@@ -3,7 +3,7 @@ We have uploaded the DART2024 dataset to the BaiduYun Disk (https://pan.baidu.co
 
 
 # UIQA method in this article
-![./Net](https://github.com/dart-into/UIQAVSI/blob/main/DART2024/network.png)
+![./Net](https://github.com/dart-into/DART2024/blob/main/network.png)
 ## Required Dataset
 | Dataset   | Links                                                       |
 | --------- | ----------------------------------------------------------- |
