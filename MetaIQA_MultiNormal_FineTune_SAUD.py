@@ -179,11 +179,11 @@ def finetune_model():
     for i in range(0,10):
         with open(ResultSave_path, 'a') as f1:  # 设置文件对象data.txt
             print(i,file=f1)
-        #images_train, images_test = train_test_split(images, train_size = 0.8)
-        #train_path = images_fold + "train_imagenormal" +str(i+1) +".csv"
-        #test_path = images_fold + "test_imagenormal" +str(i+1) + ".csv"
-        #images_train.to_csv(train_path, sep=',', index=False)
-        #images_test.to_csv(test_path, sep=',', index=False)
+        images_train, images_test = train_test_split(images, train_size = 0.8)
+        train_path = images_fold + "train_imagenormal" +str(i+1) +".csv"
+        test_path = images_fold + "test_imagenormal" +str(i+1) + ".csv"
+        images_train.to_csv(train_path, sep=',', index=False)
+        images_test.to_csv(test_path, sep=',', index=False)
 
         net1 = FeatureNet()
         net2 = FCNet()
