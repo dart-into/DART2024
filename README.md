@@ -1,6 +1,8 @@
 # DART2024 Dataset
 We have uploaded the DART2024 dataset to the BaiduYun Disk (https://pan.baidu.com/s/1MeifqdtWE9QdnmvaXYKArg?pwd=lqrn)
 
+You can download the pre-trained weights for EfficientNetV2-S from the timm or via the following link
+(https://pan.baidu.com/s/1t92KQHA-Vsw8DDSWDLjb3A?pwd=mwke)
 
 # UIQA method in this article
 ![./Net](https://github.com/dart-into/DART2024/blob/main/network.png)
