@@ -22,10 +22,7 @@ You can download the pre-trained weights for EfficientNetV2-S from the timm or v
 First, you need to download the required dataset and then modify the dataset path used in the file to ensure that the images can be accessed correctly.
 ### Pretraining  
 
-Quality prior model training on TID2013 and KADID-10k database.
-```
-python MetaIQA_MultiNormal_On_TID2013_KADID.py
-```
+
 Quality prior model training on SOTA and UID2021 database.
 ```
 python MetaIQA_MultiNormal_On_UID2021_SOTA.py
